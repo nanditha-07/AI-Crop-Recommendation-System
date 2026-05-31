@@ -14,7 +14,7 @@ st.write("Enter the soil and weather characteristics below to find the best crop
 def load_data():
     # Make sure 'Crop_recommendation.csv' is in the same folder as this script!
     df = pd.read_csv("https://raw.githubusercontent.com/nanditha-07/AI-Crop-Recommendation-System/main/Crop_recommendation.csv")
-return df
+    return df
 
 try:
     df = load_data()
